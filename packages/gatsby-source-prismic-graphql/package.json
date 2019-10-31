@@ -1,18 +1,18 @@
 {
   "private": false,
-  "name": "gatsby-source-prismic-graphql",
-  "description": "Source data from Prismic with GraphQL",
+  "name": "gatsby-source-prismic-graphql-tweaked",
+  "description": "A fork of @birkir's gatsby-source-prismic-graphql w/ filters and short language codes",
   "license": "MIT",
   "author": "Birkir Gudjonsson <birkir.gudjonsson@gmail.com>",
-  "homepage": "https://github.com/birkir/gatsby-source-prismic-graphql#readme",
+  "homepage": "https://github.com/henrymyers/gatsby-source-prismic-graphql#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/birkir/gatsby-source-prismic-graphql.git"
+    "url": "git+https://github.com/henrymyers/gatsby-source-prismic-graphql.git"
   },
   "bugs": {
-    "url": "https://github.com/birkir/gatsby-source-prismic-graphql/issues"
+    "url": "https://github.com/henrymyers/gatsby-source-prismic-graphql/issues"
   },
-  "version": "3.4.0-beta.2",
+  "version": "3.4.0-beta.3",
   "main": "index.js",
   "files": [
     "*.js",
