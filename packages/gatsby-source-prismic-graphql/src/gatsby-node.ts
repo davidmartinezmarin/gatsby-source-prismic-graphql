@@ -12,6 +12,7 @@ exports.onCreatePage = ({ page, actions }: any) => {
   const rootQuery = getRootQuery(page.componentPath);
   page.context = page.context || {};
   if (rootQuery) {
+    console.log(page);
     page.context.rootQuery = rootQuery;
     actions.createPage(page);
   }
